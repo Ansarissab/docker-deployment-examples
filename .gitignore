@@ -82,6 +82,11 @@
 **/secrets.dev.yaml
 **/values.dev.yaml
 # Ignore Kamal files.
-**/config/deploy*.yml
+# **/config/deploy*.yml
 **/.kamal
 LICENSE
+
+
+# Remove wordpress files from git tracking
+**/wordpress6.9.1/db_data/*
+**/wordpress6.9.1/wp_data/*
